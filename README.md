@@ -47,7 +47,7 @@ overthewrite the bandit challange for bios club
 >Password- 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
 
 ## Level-6
->ssh bandit4@bandit.labs.overthewire.org -p 2220
+>ssh bandit5@bandit.labs.overthewire.org -p 2220
 >4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
 >ls
 >cd inhere
@@ -56,5 +56,14 @@ Total 80 files have shown
 >find . -readable -size 1033c ! executable
 >cat maybehere07/.file2
 >Password- HwasnPhtq9AVKe0dmk45nxy20cvUa6EG
+
+## Level-7
+>ssh bandit5@bandit.labs.overthewire.org -p 2220
+>HwasnPhtq9AVKe0dmk45nxy20cvUa6EG
+>ls -a
+>find / -user bandit7 -group bandit6 -size 33c
+find the file whose passward is not denied
+>cat /var/lib/dpkg/info/bandit7.password
+>Password- morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
 
 ## Level-7
