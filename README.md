@@ -25,7 +25,7 @@ overthewrite the bandit challange for bios club
 >Password- Mnk8KNH3Usiio41PRUEoDFPqfxLPlSmx
 
 ## Level-4
->ssh bandit2@bandit.labs.overthewire.org -p 2220
+>ssh bandit3@bandit.labs.overthewire.org -p 2220
 >Mnk8KNH3Usiio41PRUEoDFPqfxLPlSmx
 >ls
 >cd inhere
@@ -35,3 +35,15 @@ overthewrite the bandit challange for bios club
 >ls
 >cat ...Hiding-From-You
 >password- 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+
+## Level-5
+>ssh bandit4@bandit.labs.overthewire.org -p 2220
+>2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+>ls
+>cd inhere
+>ls
+7 files have shown
+>Cat <-file07
+>Password- 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+
+## Level-6
