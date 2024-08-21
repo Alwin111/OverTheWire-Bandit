@@ -26,4 +26,12 @@ overthewrite the bandit challange for bios club
 
 ## Level-4
 >ssh bandit2@bandit.labs.overthewire.org -p 2220
->
+>Mnk8KNH3Usiio41PRUEoDFPqfxLPlSmx
+>ls
+>cd inhere
+>ls
+>ls -a
+...Hiding-From-You
+>ls
+>cat ...Hiding-From-You
+>password- 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
