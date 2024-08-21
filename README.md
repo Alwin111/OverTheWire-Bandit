@@ -58,7 +58,7 @@ Total 80 files have shown
 >Password- HwasnPhtq9AVKe0dmk45nxy20cvUa6EG
 
 ## Level-7
->ssh bandit5@bandit.labs.overthewire.org -p 2220
+>ssh bandit6@bandit.labs.overthewire.org -p 2220
 >HwasnPhtq9AVKe0dmk45nxy20cvUa6EG
 >ls -a
 >find / -user bandit7 -group bandit6 -size 33c
@@ -66,4 +66,10 @@ find the file whose passward is not denied
 >cat /var/lib/dpkg/info/bandit7.password
 >Password- morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
 
-## Level-7
+## Level-8
+>ssh bandit7@bandit.labs.overthewire.org -p 2220
+>morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
+>ls
+>cat data.txt
+>greb millionth data.txt
+>Prassword- dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
