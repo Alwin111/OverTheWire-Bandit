@@ -106,4 +106,33 @@ find the file whose passward is not denied
 >cat data.txt | tr A-Za-z N-ZA-Mn-za-m
 >Password-7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
 
+## Level-13
+>ssh bandit12@bandit.labs.overthewire.org -p 2220
+>7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
+>id
+>ls
+>cat data.txt
+>cp data.txt /tmp/sh/
+>cd /tmp/sh
+>ls
+>xxd -r data.txt > bandit
+>ls
+>file bandit
+>mv bandit bandit.gz
+>ls
+>file bandit
+>mv bandit bandit.bz2
+>ls
+>bzip2-d bandit.bz2
+>ls
+>file bandit
+>mv bandit bandit.gz
+>ls
+>file bandit
+>mv bandit bandit.tar
+>ls
+>tar -xf bandit.tar
+>ls
+>file data5.bin
+>
 
