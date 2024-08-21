@@ -83,3 +83,11 @@ find the file whose passward is not denied
 >Password- 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
 
 ## Level-10
+>ssh bandit9@bandit.labs.overthewire.org -p 2220
+>4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
+>ls
+>cat data.txt
+>strings data.txt | grep "=="
+>Password- FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+
+## Level-11
