@@ -91,3 +91,19 @@ find the file whose passward is not denied
 >Password- FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
 
 ## Level-11
+>ssh bandit10@bandit.labs.overthewire.org -p 2220
+>FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+>ls
+>cat data.txt
+>base64 -d data.txt
+>Password-dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
+
+## Level-12
+>ssh bandit11@bandit.labs.overthewire.org -p 2220
+>dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
+>ls
+>cat data.txt
+>cat data.txt | tr A-Za-z N-ZA-Mn-za-m
+>Password-7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
+
+
