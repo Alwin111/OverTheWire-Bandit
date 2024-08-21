@@ -205,4 +205,30 @@ correct
 >EReVavePLFHtFlFsjn3hyzMlvSuSAcRD
 >id
 >ls
->diff password
+>diff passwords.new password.old
+>Password- x2gLTTjFwMOhQ8oWNbMN362QKxfRqGlO
+
+## Level-19
+>ssh bandit18@bandit.labs.overthewire.org -p 2220
+>x2gLTTjFwMOhQ8oWNbMN362QKxfRqGlO
+>ssh -HostKeyAlgorithms=+ssh-dss -i sshkey.privatebandit17@localhsot -p 2220 /bin/sh
+>id
+>ls
+>readme
+>cat readme
+>cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8
+
+## level-20
+>ssh bandit19@bandit.labs.overthewire.org -p 2220
+>cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8
+>id
+>ls -l
+>./bandit20-do
+>./bandit20-do id
+>cat /etc/bandit_pass/bandit20
+>./bandit20-do cat /etc/bandit_pass/bandit20
+>Password- 0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO
+
+## Level-21
+>
+>
