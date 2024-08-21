@@ -230,5 +230,26 @@ correct
 >Password- 0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO
 
 ## Level-21
->
->
+>First open 2 windows in termial
+>on the first terminal
+>ssh bandit20@bandit.labs.overthewire.org -p 2220
+>0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO
+>ssh -HostKeyAlgorithms=+ssh-dss -i sshkey.privatebandit17@localhsot -p 2220
+>0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO
+>nc -lvp 2341
+
+>on the second terminal
+>ls
+suconnect
+>ls -la
+>./suconnect
+>./suconnect 2341
+
+>Again on First terminal after connection is sucessfull
+>connected
+>0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO
+Password matches
+>EeoULMCra2q0dSkYj561DX7s1CpBuOBt
+
+>Exit
+>Clear
