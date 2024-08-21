@@ -155,7 +155,7 @@ find the file whose passward is not denied
 >Password- FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
 
 ## Level-14
->ssh bandit14@bandit.labs.overthewire.org -p 2220
+>ssh bandit13@bandit.labs.overthewire.org -p 2220
 >FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
 >ls
 >cat sshkey.private
@@ -165,5 +165,23 @@ find the file whose passward is not denied
 >cat/etc/bandit_pass/bandit14
 >Password-MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
 
-##
+## level-15
+>ssh bandit14@bandit.labs.overthewire.org -p 2220
+>MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
+>id
+>ls
+>nc localhost 30000
+>MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
+>Password-8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
 
+## Level-16
+>ssh bandit15@bandit.labs.overthewire.org -p 2220
+>8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
+>id
+>ls
+>openssl s_client -connect localhost:30001
+>8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
+correct
+>kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
+
+## Level-17
