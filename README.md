@@ -53,4 +53,8 @@ overthewrite the bandit challange for bios club
 >cd inhere
 >ls -l
 Total 80 files have shown
->find . -readable-size 1033c ! ex
+>find . -readable -size 1033c ! executable
+>cat maybehere07/.file2
+>Password- HwasnPhtq9AVKe0dmk45nxy20cvUa6EG
+
+## Level-7
