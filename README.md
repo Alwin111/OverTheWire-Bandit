@@ -193,4 +193,9 @@ correct
 >correct
 >cd /tmp/mytmp66666
 >nano sshkey
->
+>chmod 600 sshkey
+>ssh -HostKeyAlgorithms=+ssh-dss -i sshkey.privatebandit17@localhsot -p 2220
+>yes
+>ls /etc/bandit_pass/
+>cat /etc/bandit_pass/bandit17
+>Password-EReVavePLFHtFlFsjn3hyzMlvSuSAcRD
