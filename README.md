@@ -153,5 +153,17 @@ find the file whose passward is not denied
 >file data8
 >cat data8
 >Password- FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
->
+
+## Level-14
+>ssh bandit14@bandit.labs.overthewire.org -p 2220
+>FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
+>ls
+>cat sshkey.private
+>ssh -HostKeyAlgorithms=+ssh-dss -i sshkey.privatebandit14@localhsot -p 2220
+>yes
+>id
+>cat/etc/bandit_pass/bandit14
+>Password-MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
+
+##
 
