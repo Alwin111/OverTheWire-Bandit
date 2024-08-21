@@ -185,7 +185,7 @@ correct
 >Password-kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
 
 ## Level-17
->ssh bandit17@bandit.labs.overthewire.org -p 2220
+>ssh bandit16@bandit.labs.overthewire.org -p 2220
 >kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
 >nc -nv -w 1 -z 127.0.0.1 31000-32000 2&>1 | grep succeeded
 >openssl s_client -connect localhost:31790
@@ -199,3 +199,10 @@ correct
 >ls /etc/bandit_pass/
 >cat /etc/bandit_pass/bandit17
 >Password-EReVavePLFHtFlFsjn3hyzMlvSuSAcRD
+
+## Level-18
+>ssh bandit17@bandit.labs.overthewire.org -p 2220
+>EReVavePLFHtFlFsjn3hyzMlvSuSAcRD
+>id
+>ls
+>diff password
