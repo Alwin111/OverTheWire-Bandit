@@ -182,6 +182,15 @@ find the file whose passward is not denied
 >openssl s_client -connect localhost:30001
 >8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
 correct
->kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
+>Password-kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
 
 ## Level-17
+>ssh bandit17@bandit.labs.overthewire.org -p 2220
+>kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
+>nc -nv -w 1 -z 127.0.0.1 31000-32000 2&>1 | grep succeeded
+>openssl s_client -connect localhost:31790
+>kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
+>correct
+>cd /tmp/mytmp66666
+>nano sshkey
+>
