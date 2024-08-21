@@ -47,3 +47,10 @@ overthewrite the bandit challange for bios club
 >Password- 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
 
 ## Level-6
+>ssh bandit4@bandit.labs.overthewire.org -p 2220
+>4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+>ls
+>cd inhere
+>ls -l
+Total 80 files have shown
+>find . -readable-size 1033c ! ex
