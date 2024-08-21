@@ -73,3 +73,13 @@ find the file whose passward is not denied
 >cat data.txt
 >greb millionth data.txt
 >Prassword- dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
+
+## level-9
+>ssh bandit8@bandit.labs.overthewire.org -p 2220
+>dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
+>ls
+>cat data.txt
+>sort data.txt | uniq -u
+>Password- 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
+
+## Level-10
