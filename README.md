@@ -134,5 +134,24 @@ find the file whose passward is not denied
 >tar -xf bandit.tar
 >ls
 >file data5.bin
+>mv data5.bin data5.tar
+>ls
+>tar -xf data5.tar
+>ls
+>file data6.bin
+>mv data6.bin data6.bz2
+>bzip2-d data6.bz2
+>ls
+>file data6
+>mv data6 .data6.tar
+>tar -xf data6.tar
+>ls
+>file data8.bin
+>mv data8.bin data8.gz
+>gunzip data8.gz
+>ls
+>file data8
+>cat data8
+>Password- FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
 >
 
